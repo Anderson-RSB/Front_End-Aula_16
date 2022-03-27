@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&family=Roboto+Condensed&family=Roboto:wght@100;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #14371F;
+}
+
+.cabecalho {
+    width: 100vw;
+    min-height: 80px;
+    background-color: #C4501B;
+}
+
+.loja {
+    color: white;
+    padding: 6px;
+}
+
+.banner {
+    width: 100vw;
+    height: 450px;
+    background-color: white ;
+    background-image: url("https://www.gamespot.com/a/uploads/screen_kubrick/1587/15875866/3590170-stardew-valley.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    width: 30vw;
+    margin-top: 20px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 50vw;
+    height: 500px;
+    padding: 10px;
+}
+
+#pic1 {
+    background-image: url("https://s2.glbimg.com/iDia127xz_uWgrQEyhJIw3R9LO0=/800x0/smart/filters:strip_icc()/s.glbimg.com/po/tt2/f/original/2016/03/03/ss_6782738f719e4f4eaa08bb15cf227694bceb1401.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+
+#pic2{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyJ4Ur9l4chjDuVTl18qcl4i37jpjNdzwRZw&usqp=CAU");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+
+#pic3{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP6ty4B8wEBGl_5gbqOMFQo7UrUKGXs9j_hQ&usqp=CAU");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+
+#pic4{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyh3pnzyfbTdjVyi64bQ5ohcyDi969e2e_PQ&usqp=CAU");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+
+.rodape {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.direitos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    color: white;
+    height: 20vh;
+    background: #C4501B;
+}
+
+.direitos h3 {
+    font-size: small;
+    text-align: center;
+}

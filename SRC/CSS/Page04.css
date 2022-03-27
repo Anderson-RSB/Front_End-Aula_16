@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&family=Roboto+Condensed&family=Roboto:wght@100;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #353535;
+}
+
+.cabecalho {
+    width: 100vw;
+    min-height: 80px;
+    background-color: #284b63;
+}
+
+.desconto {
+    min-height: 15px;
+    background: #3c6e71;
+    font-size: small;
+    padding: 3px;
+    color: white;
+}
+
+.loja {
+    color: white;
+    padding: 6px;
+}
+
+.titulo{
+    display: none;
+}
+
+.banner{
+    margin-top: 5px;
+    background-image: url("https://meups.com.br/wp-content/uploads/2022/01/Elden-Ring-Godfrey-o-imaculado.jpg");
+    /* background-image: url("https://tm.ibxk.com.br/2021/11/09/09191733039114.jpg?ims=1200x675"); */
+    width: 100vw;
+    height: 420px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -90px;
+    background-attachment: fixed;
+}
+
+.title{
+    color:white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.cards {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card1,
+.card2,
+.card3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 400px;
+    border-radius: 1em;
+    box-shadow: 0 0 5em -1em black;
+    transition: all, 2.0s;
+    position: relative;
+    border: 3px solid #ccc;
+    margin: 20px;
+}
+
+.card1{
+    background-image:url("https://teoriageek.com.br/wp-content/uploads/2021/04/FICHA-TECNICA-IMAGEM-1.png");
+    background-position: center;
+    background-repeat: no-repeat;    
+    background-size: 400px 600px;
+}
+.card2{
+    background-image:url("https://image.api.playstation.com/vulcan/ap/rnd/202102/2307/kQzDCY5RCrSXCeeFjPGUzkGI.png");
+    background-position: center;
+    background-repeat: no-repeat;    
+    background-size: 500px 600px;
+}
+.card3 {
+    background-image:url("https://image.api.playstation.com/vulcan/ap/rnd/202103/0215/VrQWNHmY4f9iGtM8a2gPxqmx.png");
+    background-position: center;
+    background-repeat: no-repeat;    
+    background-size: 500px 600px;
+}
+
+.buttonMais{
+margin-bottom: 40px;
+}
+
+#submit{
+    padding: 8px;
+    border: none;
+    border-radius: 15px;
+    background: #f5cb5c;
+    margin-top: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.rodape {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 20vh;
+}
+
+.direitos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    color: white;
+    height: 20vh;
+    background: #40798c;
+}
+
+.direitos h3 {
+    font-size: small;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+
+    .banner {
+        margin-top: 2px;
+        background-image: url("https://i.pinimg.com/originals/76/d6/e9/76d6e91d8a536b338177a33024717b5f.png");
+        width: 100vw;
+        height: 420px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: -90px;
+        background-attachment: fixed;
+    }
+}

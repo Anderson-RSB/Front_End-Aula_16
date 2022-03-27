@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&family=Roboto+Condensed&family=Roboto:wght@100;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.cabecalho {
+    width: 100vw;
+    min-height: 60px;
+    background: #40798c;
+}
+
+.desconto {
+    min-height: 15px;
+    background: #70a9a1;
+    font-size: small;
+    padding: 3px;
+}
+
+.loja {
+    color: white;
+    padding: 6px;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 100vw;
+    background-color: #0b2027;
+}
+
+.boxForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.titulo {
+    font-size: 30px;
+    color:#cfd7c7;
+    margin-top: 50px;
+}
+
+.mainForm {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.registro {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#nome_sobrenome, #senha, #email, #pais{
+    width: 40vw;
+    padding: 8px;
+}
+
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#submit, #delete {
+    padding: 8px;
+    border: none;
+    border-radius: 15px;
+    background: #70a9a1;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#submit:hover {
+    background: greenyellow;
+}
+
+#delete:hover{
+    background: #990808;
+}
+
+
+.mensagem{
+    color:#cfd7c7;
+}
+
+.link {
+    text-decoration: none;
+    color:#00669F
+}
+
+.rodape {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 20vh;
+}
+
+.direitos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    color: white;
+    height: 20vh;
+    background: #40798c;
+}
+
+.direitos h3 {
+    font-size: small;
+    text-align: center;
+}
